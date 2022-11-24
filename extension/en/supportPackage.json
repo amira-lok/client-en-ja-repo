@@ -1,0 +1,28 @@
+{
+  "section": {
+    "title": "Send debug logs",
+    "description": "Share debug logs with Island for improved troubleshooting."
+  },
+  "startButton": {
+    "start": "Start Collecting Logs"
+  },
+  "stopButton": {
+    "starting": "Starting...",
+    "started": "Stop Collecting Logs",
+    "stopping": "Stopping..."
+  },
+  "uploadButton": {
+    "pendingUserInput": "Submit",
+    "bundlingData": "Uploading...",
+    "uploadingData": "Uploading..."
+  },
+  "cancelButton": "Cancel",
+  "reasonInput": {
+    "placeholder": "Provide the reason for submitting the report and the contact in Island (optional)"
+  },
+  "footer": {
+    "uploadedSuccessfully": "Report succeeded",
+    "failed": "Report failed",
+    "at": ", at {{date}}"
+  }
+}

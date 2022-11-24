@@ -1,0 +1,15 @@
+{
+  "importDialog": {
+    "title": "途中から継続",
+    "description": "以前に利用したお気に入り、履歴、パスワードや拡張機能をインポート",
+    "primaryCta": "設定をインポート",
+    "secondaryCtaTooltip": "閉じる、次回から表示しない"
+  },
+  "header": {
+    "userGreeting": {
+      "morning": "おはようございます、{{userName}}さん",
+      "afternoon": "こんにちは、{{userName}}さん",
+      "evening": "こんばんは、{{userName}}さん"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "protectedBrowsing": {
+    "title": "Protected Browsing",
+    "description": "Some actions are limited to keep our company’s data safe from getting lost or stolen.",
+    "descriptionWithNoFeaturePolicies": "Keeping our company’s data safe sometimes requires setting browsing limitations.\n\nIf such exist, you’ll see them here.",
+    "policyFeatures": {
+      "downloadFiles": "Download Files",
+      "savePage": "Save Page",
+      "uploadFiles": "Upload File",
+      "takeScreenshots": "Screen Capture",
+      "copy/CutContent": "Copy/Cut Content",
+      "pasteContent": "Paste Content",
+      "printPage": "Print Page"
+    },
+    "policyStatuses": {
+      "disabled": "Disabled",
+      "limited": "Limited",
+      "allowed": "Allowed"
+    },
+    "screenshotProtectionBypass": {
+      "disabled": "To bypass this session and allow <1/> click <3>here<3/>",
+      "enabled": "Screen capture is allowed due to bypass",
+      "enabledTip": "Browsing session for this website will end when all tabs of this website are closed"
+    }
+  },
+  "expandableSecureStorageSection": {
+    "title": "Secure storage",
+    "description": "Store your files in a secure file manager. View, edit and take action in your company browser",
+    "primaryCta": "open secure storage"
+  },
+  "expandablePolicyControlSection": {
+    "title": "Policy control",
+    "description": "Refresh policy to keep your browser up to date with our organizational policy",
+    "primaryCta": "refresh policy",
+    "policyDateLabel": "Policy Date",
+    "browserPolicyDateLabel": "Browser Policy Date",
+    "pamPolicyDateLabel": "PAM Policy Date",
+    "noPolicy": "No policy"
+  },
+  "expandablePolicyInfoSection": {
+    "title": "Policy info",
+    "description": "The following section is visible to admins only",
+    "primaryCta": "open troubleshooting",
+    "appliedRuleLabel": "Applied Rule",
+    "reportingRulesLabel": "Reporting Rules",
+    "userInfoLabel": "User Info",
+    "ruleMatchingTreeLabel": "Rule Matching Tree",
+    "usernamePrefix": "Username",
+    "tenantPrefix": "Tenant"
+  },
+  "SecurityTipsSection": {
+    "title": "Security tips to help remove limitations",
+    "officeNetworkTip": "Connect to the secure office network",
+    "companyDeviceTip": "Use a company-owned device",
+    "antiMalwareTip": "Run anti-malware software on your device"
+  }
+}

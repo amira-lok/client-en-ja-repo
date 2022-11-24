@@ -1,0 +1,28 @@
+{
+  "section": {
+    "title": "デバッグログを送信します",
+    "description": "デバッグログをIslandと共有しトラブルシューティングを改善します。"
+  },
+  "startButton": {
+    "start": "ログ収集を開始します"
+  },
+  "stopButton": {
+    "starting": "開始中…",
+    "started": "ログ収集の停止します",
+    "stopping": "停止中…"
+  },
+  "uploadButton": {
+    "pendingUserInput": "登録",
+    "bundlingData": "アップロード中…",
+    "uploadingData": "アップロード中…"
+  },
+  "reasonInput": {
+    "placeholder": "レポート提出の理由とIslandへの連絡先を記入してください (任意)"
+  },
+  "footer": {
+    "uploadedSuccessfully": "報告に成功しました",
+    "failed": "報告に失敗しました",
+    "at": "{{date}}時点"
+  },
+  "cancelButton": "キャンセル"
+}

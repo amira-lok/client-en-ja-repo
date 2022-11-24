@@ -1,0 +1,277 @@
+{
+  "common": {
+    "alertReason": "会社のデータの紛失および盗難を防ぐために",
+    "printOrSaveWarnReasons": [
+      "サイトには機密情報がありません",
+      "オフライン業務で要求されます"
+    ],
+    "uploadOrDownloadReasons": [
+      "ファイル内に機密データがありません",
+      "オフライン作業で必要です"
+    ],
+    "messages": {
+      "companyBlockProtectionDisclaimer": "会社を保護するためにも、ファイルは削除されました。",
+      "downloadTimeout": "スキャンのタイムアウトにより、ダウンロードがキャンセルされました",
+      "uploadTimeout": "スキャンのタイムアウトにより、アップロードがキャンセルされました",
+      "unexpectedError": "予期せぬエラーが発生しました",
+      "defaultWarnMessage": "本当に続けますか。",
+      "companyProtectionDefaultMessage": "外部脅威から会社を守るために"
+    },
+    "singleConfirmationCta": "了解",
+    "genericFileScanDescription": "外部脅威や情報漏洩から会社のデータを保護するために",
+    "needHelpDescription": {
+      "additionalHelpNeeded": "追加のヘルプが必要ですか。",
+      "contactIT": "IT部門に問い合わせてください。",
+      "contactITForHelp": "<0>追加のヘルプが必要な場合<\/0> IT部門に問い合わせる。"
+    },
+    "fileStates": {
+      "blocked": "ブロックされました",
+      "storedLocally": "ローカルへ保存されました",
+      "onlineView": "オンラインビュー",
+      "waiting": "待機中",
+      "uploaded": "アップロード済み"
+    },
+    "otherAlertReason": "その他 (理由を記入してください)",
+    "addReasonPlaceholder": "理由を追加してください",
+    "secureStorage": {
+      "name": "Secure Storage",
+      "storedIn": "<2>$t(alerts:common.secureStorage.name)<\/2> に格納される"
+    }
+  },
+  "copyBlock": {
+    "title": "切り取り\/貼り付けはできません"
+  },
+  "browserIsolationBlock": {
+    "title": "Browser Protectionは有効です",
+    "description": "Browser Isolation protectionによりこのサイトは期待通り動作しない可能性があります"
+  },
+  "dragBlock": {
+    "title": "ドラッグはできません"
+  },
+  "dropBlock": {
+    "title": "ドロップはできません"
+  },
+  "pasteBlock": {
+    "title": "貼り付けはできません"
+  },
+  "printPageBlock": {
+    "title": "ページの印刷はできません"
+  },
+  "savePageBlock": {
+    "title": "切り取り\/コピーはできません"
+  },
+  "saveBlock": {
+    "title": "ページの保存はできません"
+  },
+  "printWarn": {
+    "title": "機密情報を印刷",
+    "description": "このサイトは機密情報を含んでいます。\n会社を保護するためにも、このサイトから印刷しないようお願いします。",
+    "primaryCta": "登録と印刷",
+    "secondaryCta": "印刷をキャンセル",
+    "promptText": "このサイトから印刷する理由を入力してください"
+  },
+  "saveWarn": {
+    "title": "機密情報を保存",
+    "description": "このサイトは機密情報を含んでいます。\n会社を保護するためにも、このサイトから保存しないようお願いします。",
+    "primaryCta": "登録と保存",
+    "secondaryCta": "保存をキャンセル",
+    "promptText": "このサイトを保存する理由を入力してください"
+  },
+  "antiPhishingBlock": {
+    "title": "不明なサイトへのログインですか。",
+    "description": "このサイトは業務に関連したものとはみなせません。\n会社を保護するために、業務アカウントでのログインは禁止です。"
+  },
+  "antiPhishingWarn": {
+    "title": "不明なサイトへのログインですか。",
+    "description": "このサイトは業務に関連したものとはみなせません。\n会社を保護するために、このサイトへのログインは推奨しません。",
+    "primaryCta": "登録とログイン",
+    "secondaryCta": "ログインをキャンセル",
+    "promptText": "このサイトへ認証情報を入力する理由を入力してください",
+    "reasons": [
+      "このサイトへのワンタイムアクセスを要求します",
+      "このサイトは業務に関連したものです"
+    ]
+  },
+  "secureStorage": {
+    "title": "Secure Storageにファイルが保存されました",
+    "description": "外部脅威から会社のデータを保護するために",
+    "primaryCtaViewable": "Secure Storageで開く",
+    "primaryCtaNotViewable": "Secure Storageでの表示",
+    "secondaryCta": "キャンセル"
+  },
+  "sanitizedSecureStorage": {
+    "description": "外部脅威から会社のデータを保護するために、ファイルの無害化がされSecure Storageに保存ができました。",
+    "storedIn": "<2>$t(alerts:common.secureStorage)<\/2>に格納"
+  },
+  "secureViewer": {
+    "title": "ファイルのオンラインビューの準備ができています",
+    "description": "Island secure viewer経由で外部脅威から会社のデータを保護する",
+    "primaryCta": "ビュー",
+    "secondaryCta": "スキップ"
+  },
+  "sanitizedSecureViewer": {
+    "description": "会社のポリシーでファイルの無害化がされ、オンラインビューの準備ができました"
+  },
+  "archivePassword": {
+    "title": "アーカイブパスワードが必要です",
+    "description": "このファイルはパスワードで保護されています",
+    "primaryCta": "確認",
+    "secondaryCta": "キャンセル",
+    "placeholder": "アーカイブパスワード"
+  },
+  "downloadBlock": {
+    "title": "ダウンロードがブロックされました"
+  },
+  "downloadSanitized": {
+    "title": "ダウンロードに成功しました",
+    "description": "ファイルが無害化されました"
+  },
+  "downloadSanitizedFormat": {
+    "description": "ファイルが無害化され、フォーマットが変更されました"
+  },
+  "downloadSavingToSecureStorage": {
+    "title": "Secure Storageへファイル保存中…"
+  },
+  "downloadSavingToSecureViewer": {
+    "title": "Secure Storageへファイル保存中…"
+  },
+  "downloadScanning": {
+    "title": "ファイルのスキャン中…"
+  },
+  "downloadSuccessLocal": {
+    "title": "ダウンロードに成功しました"
+  },
+  "uploadBlock": {
+    "title": "アップロードがブロックされました"
+  },
+  "uploadSanitized": {
+    "title": "アップロードに成功しました"
+  },
+  "uploadScanning": {
+    "title": "ファイルのスキャン中…",
+    "secondaryCta": "キャンセル"
+  },
+  "uploadScanSuccess": {
+    "title": "ファイルのスキャンに成功しました",
+    "description": "スキャン完了 - ファイルがアップロードされます"
+  },
+  "uploadSuccess": {
+    "title": "アップロードに成功しました"
+  },
+  "downloadWarn": {
+    "title": "機密データが見つかりました",
+    "primaryCta": "登録とダウンロード",
+    "secondaryCta": "ダウンロードのキャンセル",
+    "promptText": "ファイルをダウンロードする理由の入力してください"
+  },
+  "uploadWarn": {
+    "title": "機密データが見つかりました",
+    "primaryCta": "登録とアップロード",
+    "secondaryCta": "アップロードのキャンセル",
+    "promptText": "ファイルをアップロードする理由の入力してください"
+  },
+  "pamAutofill": {
+    "title": "サインイン",
+    "description": "サインインするアカウントを選択",
+    "secondaryCta": "閉じる"
+  },
+  "pamAutofillSuggestions": {
+    "errorTitle": "何かが間違っていたようです。",
+    "errorDescription": "ページを更新してもう一度お試しください。それでも問題が解決しない場合は、IT部門にお問合せください。"
+  },
+  "downloadUploadBlockMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "機密データが見つかりました。$t(alerts:common.messages.companyBlockProtectionDisclaimer)",
+      "fileSizeExceededDownload": "大きなファイルのダウンロードは禁止されています。",
+      "fileSizeExceededUpload": "大きなファイルのアップロードは禁止されています。",
+      "blockedSite": "このサイトは危険なサイトと判定されたため、会社のポリシーに従ってブロックされました。",
+      "unsupportedLocalUpload": "会社のポリシーにより、Secure Storage経由でのみファイルのアップロードが可能です"
+    },
+    "scanResult": {
+      "blackListed": "このファイルはブラックリストに登録されています",
+      "threat": "このファイルは悪意のあるものであることが判明したため削除されました。"
+    },
+    "unscannable": {
+      "fileTooLarge": "このファイルはサイズが大きすぎるためスキャンできません",
+      "disconnected": "ネットワークの問題でファイルをスキャンできません",
+      "failedToConnect": "スキャナーにアクセスできません",
+      "unsupportedFormat": "このファイルタイプはサポートされていません",
+      "sanitizationFailed": "このファイルは無害化できませんでした",
+      "encryptedFile": "このファイルは暗号化されています",
+      "archiveTooDeep": "この圧縮ファイルはファイルが多すぎます",
+      "archiveContentTooLarge": "この圧縮ファイルは大きすぎます",
+      "archiveItemCountTooLarge": "この圧縮ファイルはファイルが多すぎます",
+      "unexpectedError": "スキャン処理中にエラーが発生しました",
+      "noAvailableQuota": "設定されたスキャンサービスに利用可能なものがありません"
+    },
+    "cancel": {
+      "wrongPasswordAttemptExceededDownload": "パスワードの誤入力が多いため、ダウンロードをキャンセルしました",
+      "wrongPasswordAttemptExceededUpload": "パスワードの誤入力が多いため、アップロードをキャンセルしました"
+    }
+  },
+  "downloadWarnMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "このファイルには機密データが含まれています。\n会社を保護するためも、このファイルをダウンロードしないことをお勧めします。"
+    }
+  },
+  "uploadWarnMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "このファイルには機密データが含まれています。\n会社を保護するため、このファイルをダウンロードしないことをお勧めします。"
+    }
+  },
+  "generalBlockMessages": {
+    "mimeMatch": "‘{{mimeType}}‘ファイルのMIMEタイプは許可されていません。$t(alerts:common.messages.companyBlockProtectionDisclaimer)",
+    "extensionMatch": "‘{{fileType}}‘ファイルは許可されていません。$t(alerts:common.messages.companyBlockProtectionDisclaimer)"
+  },
+  "authenticateToOneDrive": {
+    "title": "OneDriveにファイルを保存します",
+    "description": "会社の方針により、ファイルはお客様のOneDriveに保存されます。",
+    "primaryCta": "続ける",
+    "secondaryCta": "キャンセル"
+  },
+  "oneDriveSuccess": {
+    "title": "OneDriveに保存されたファイル",
+    "description": "外部の脅威や情報漏洩から会社のデータを守るため。",
+    "storedIn": "<2>$t(alerts:oneDriveSuccess.cloudStorageName)<\/2>に格納",
+    "cloudStorageName": "OneDrive",
+    "primaryCta": "OneDriveを開きます",
+    "secondaryCta": "キャンセル"
+  },
+  "downloadSavingToOneDrive": {
+    "title": "OneDriveへファイルを保存しています…",
+    "description": "外部の脅威や情報漏洩から社内のデータや資産を守るために、OneDriveにファイルを保存しています。"
+  },
+  "featureAnnouncement": {
+    "tryItNow": "今すぐ試す",
+    "new": "新規",
+    "accessUsingShortcutOrFromTopBarInstructions": "{{feature}}は<3>{{keyboardShortcut}}<\/3><br \/>、またはトップバーの<5><\/5>アイコンからアクセスできます。",
+    "clipboardManagerCopy": {
+      "featureName": "Island Clipboard",
+      "title": "コピー機能が向上",
+      "content": "Island Clipboardはコピー履歴をワンクリックで残せます。必要なデータを素早く検索し、貼り付けることができます。"
+    },
+    "clipboardManagerSmartClipsInsertion": {
+      "featureName": "Island Clipboard",
+      "title": "生産性が向上しました!",
+      "content": "組織が自動的にクリップボードの履歴に必要なデータを挿入しました。Island Clipboardですぐに使えるようになります。"
+    },
+    "snippingTool": {
+      "featureName": "Island Capture",
+      "title": "キャプチャを止めないでください!",
+      "content": "Island Captureをご利用いただけます。Island Captureを使えば、ウェブ上のあらゆる場所でコンテンツをキャプチャ、トリミングして利用することができます。クリックするだけですぐにご利用いただけます。"
+    }
+  },
+  "bypassRequests": {
+    "screenshotProtectionBypass": {
+      "title": "",
+      "description": "",
+      "primaryCta": "",
+      "secondaryCta": "",
+      "promptText": "",
+      "reasons": [
+        "",
+        ""
+      ]
+    }
+  }
+}

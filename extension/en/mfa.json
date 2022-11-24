@@ -1,0 +1,7 @@
+{
+  "mfaOnTab": {
+    "title": "Tab has been locked",
+    "description": "In order to protect our company's data, please re-authenticate to continue using this resource.",
+    "primaryButton": "Authenticate"
+  }
+}

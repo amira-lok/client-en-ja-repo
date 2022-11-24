@@ -1,0 +1,15 @@
+{
+  "importDialog": {
+    "title": "Continue working where you left off!",
+    "description": "Import previously used bookmarks, history, passwords and extensions",
+    "primaryCta": "Import your settings",
+    "secondaryCtaTooltip": "Close, and don’t show me again"
+  },
+  "header": {
+    "userGreeting": {
+      "morning": "Good morning, {{userName}}",
+      "afternoon": "Good afternoon, {{userName}}",
+      "evening": "Good evening, {{userName}}"
+    }
+  }
+}

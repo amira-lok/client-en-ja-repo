@@ -1,0 +1,47 @@
+{
+  "common": {
+    "dialog": {
+      "cancel": "キャンセル",
+      "delete": "削除"
+    },
+    "imageItemTitle": "コピー画像",
+    "maskedImageItemTitle": "$t(clipboardManager:common.imageItemTitle) (Masked)",
+    "tooltipText": "組織のデータを保護するため、組織のポリシーにより、このコンテンツは貼り付けやコピーができません。",
+    "pasteCTA": "使用"
+  },
+  "group": {
+    "actions": {
+      "delete": {
+        "smartClips": {
+          "dialog": {
+            "title": "スマートクリップグループを削除します",
+            "content": "スマートクリップグループは削除されます"
+          }
+        }
+      }
+    },
+    "title": "コピーしたクリップ"
+  },
+  "tabActions": {
+    "deleteAll": {
+      "clips": {
+        "menuItem": "保存されているすべてのクリップを削除します",
+        "dialog": {
+          "title": "保存されているすべてのクリップを削除します",
+          "content": "個人用のクリップはすべて永久に削除されます"
+        }
+      },
+      "smartClips": {
+        "menuItem": "すべてのスマートクリップを削除します",
+        "dialog": {
+          "title": "すべてのスマートクリップを削除します",
+          "content": "すべてのスマートクリップは永久に削除されます"
+        }
+      }
+    }
+  },
+  "snippingTool": {
+    "itemTitle": "スナイプコンテンツ",
+    "maskedItemTitle": "$t(clipboardManager:snippingTool.itemTitle) (Masked)"
+  }
+}

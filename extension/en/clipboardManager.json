@@ -1,0 +1,47 @@
+{
+  "common": {
+    "dialog": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "imageItemTitle": "Copied image",
+    "maskedImageItemTitle": "$t(clipboardManager:common.imageItemTitle) (Masked)",
+    "tooltipText": "In order to protect the organization’s data, this content can’t be pasted or copied due to the organization’s policy",
+    "pasteCTA": "Use"
+  },
+  "group": {
+    "title": "Clips you've copied",
+    "actions": {
+      "delete": {
+        "smartClips": {
+          "dialog": {
+            "title": "Delete Smart Clips group",
+            "content": "Smart Clips group will be deleted"
+          }
+        }
+      }
+    }
+  },
+  "tabActions": {
+    "deleteAll": {
+      "clips": {
+        "menuItem": "Delete all saved clips",
+        "dialog": {
+          "title": "Delete all saved clips",
+          "content": "All personal clips will be deleted permanently"
+        }
+      },
+      "smartClips": {
+        "menuItem": "Delete all Smart Clips",
+        "dialog": {
+          "title": "Delete all Smart Clips",
+          "content": "All Smart Clips will be deleted permanently"
+        }
+      }
+    }
+  },
+  "snippingTool": {
+    "itemTitle": "Snipped content",
+    "maskedItemTitle": "$t(clipboardManager:snippingTool.itemTitle) (Masked)"
+  }
+}

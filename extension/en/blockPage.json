@@ -1,0 +1,13 @@
+{
+  "block": {
+    "title": "Access denied",
+    "description": "The site you are trying to access is restricted according to company policy.",
+    "primaryCta": "Close tab"
+  },
+  "warn": {
+    "title": "Suspicious website",
+    "description": "According to company policy, access to this site is not recommended. \n\nAre you sure you want to continue?",
+    "primaryCta": "Close tab",
+    "secondaryCta": "Continue"
+  }
+}

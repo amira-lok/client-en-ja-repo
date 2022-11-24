@@ -1,0 +1,264 @@
+{
+  "common": {
+    "alertReason": "to protect our company’s data from getting lost or stolen",
+    "otherAlertReason": "Other (fill in reason)",
+    "addReasonPlaceholder": "Add reason",
+    "printOrSaveWarnReasons": [
+      "No sensitive data in the site",
+      "Needed for offline work"
+    ],
+    "uploadOrDownloadReasons": [
+      "No sensitive data in the file",
+      "Needed for offline work"
+    ],
+    "messages": {
+      "companyBlockProtectionDisclaimer": "\nTo protect our company, the file was removed.",
+      "downloadTimeout": "The download has been cancelled due to scan timeout",
+      "uploadTimeout": "The upload has been cancelled due to scan timeout",
+      "unexpectedError": "An unexpected error occurred",
+      "defaultWarnMessage": "Are you sure you want to continue?",
+      "companyProtectionDefaultMessage": "to protect sensitive data from leaving the organization."
+    },
+    "singleConfirmationCta": "Got it",
+    "genericFileScanDescription": "To protect our company’s data\nfrom external threats and data leakage",
+    "needHelpDescription": {
+      "additionalHelpNeeded": "Need additional help?",
+      "contactIT": "Contact your IT.",
+      "contactITForHelp": "<0>Need additional help?</0>\u00a0Contact your IT."
+    },
+    "fileStates": {
+      "blocked": "Blocked",
+      "storedLocally": "Stored locally",
+      "onlineView": "Online view",
+      "waiting": "Waiting",
+      "uploaded": "Uploaded"
+    },
+    "secureStorage": {
+      "name": "Secure Storage",
+      "storedIn": "Stored in <2>$t(alerts:common.secureStorage.name)</2>"
+    }
+  },
+  "copyBlock": {
+    "title": "Cut/Copy is disabled"
+  },
+  "browserIsolationBlock": {
+    "title": "Browser Protection is Active",
+    "description": "This site might not work as expected due to Browser Isolation protection"
+  },
+  "dragBlock": {
+    "title": "Drag is disabled"
+  },
+  "dropBlock": {
+    "title": "Drop is disabled"
+  },
+  "pasteBlock": {
+    "title": "Paste is disabled"
+  },
+  "printPageBlock": {
+    "title": "Print page is disabled"
+  },
+  "savePageBlock": {
+    "title": "Cut/Copy is disabled"
+  },
+  "saveBlock": {
+    "title": "Save page is disabled"
+  },
+  "printWarn": {
+    "title": "Print sensitive data",
+    "description": "This site contains sensitive data.\nTo protect our company, we recommend that you do not print from this site",
+    "primaryCta": "Submit and Print",
+    "secondaryCta": "Cancel Print",
+    "promptText": "Provide a reason for printing from this site"
+  },
+  "saveWarn": {
+    "title": "Save sensitive data",
+    "description": "This site contains sensitive data.\nTo protect our company, we recommend that you do not save from this site",
+    "primaryCta": "Submit and Save",
+    "secondaryCta": "Cancel Save",
+    "promptText": "Provide a reason for saving from this site"
+  },
+  "antiPhishingBlock": {
+    "title": "Login to unknown site?",
+    "description": "This site isn’t recognized as a business application.\nTo protect our company we prohibit logging using business identifiers"
+  },
+  "antiPhishingWarn": {
+    "title": "Login to unknown site?",
+    "description": "This site isn’t recognized as a business application.\nTo protect our company, we recommend that you do not login to this site.",
+    "primaryCta": "Submit and Login",
+    "secondaryCta": "Cancel Login",
+    "promptText": "Provide a reason for entering credentials in this site",
+    "reasons": [
+      "I require a one-time access to this site",
+      "This site is a known business application"
+    ]
+  },
+  "secureStorage": {
+    "title": "File saved to Secure Storage",
+    "description": "To protect our company's data from external threats.",
+    "primaryCtaViewable": "Open in secure storage",
+    "primaryCtaNotViewable": "Show in secure storage",
+    "secondaryCta": "Cancel"
+  },
+  "authenticateToOneDrive": {
+    "title": "Saving file to OneDrive",
+    "description": "According to company policy, file will be saved to your OneDrive storage.",
+    "primaryCta": "Continue",
+    "secondaryCta": "Cancel"
+  },
+  "oneDriveSuccess": {
+    "title": "File saved to OneDrive",
+    "description": "To protect our company's data from external threats and data leakage.",
+    "storedIn": "Stored in <2>$t(alerts:oneDriveSuccess.cloudStorageName)</2>",
+    "cloudStorageName": "OneDrive",
+    "primaryCta": "Open in OneDrive",
+    "secondaryCta": "Cancel"
+  },
+  "sanitizedSecureStorage": {
+    "description": "File has been sanitized and saved to secure storage to protect our company data from external threats."
+  },
+  "secureViewer": {
+    "title": "File ready for Online View",
+    "description": "via Island secure viewer, to protect our\ncompany’s data from external threats",
+    "primaryCta": "View",
+    "secondaryCta": "Skip"
+  },
+  "sanitizedSecureViewer": {
+    "description": "File has been sanitized and ready for online view according to company policy"
+  },
+  "downloadBlock": {
+    "title": "Download has been blocked"
+  },
+  "downloadSanitized": {
+    "title": "Downloaded successfully",
+    "description": "The file was sanitized"
+  },
+  "downloadSanitizedFormat": {
+    "description": "The file was sanitized, and its format was changed"
+  },
+  "downloadSavingToSecureStorage": {
+    "title": "Saving file to Secure Storage..."
+  },
+  "downloadSavingToOneDrive": {
+    "title": "Saving file to OneDrive...",
+    "description": "File is being saved to OneDrive to protect our company's data and assets from external threats and data leakage."
+  },
+  "downloadSavingToSecureViewer": {
+    "title": "Saving file to Secure Storage..."
+  },
+  "downloadScanning": {
+    "title": "Scanning file..."
+  },
+
+  "uploadBlock": {
+    "title": "Upload has been blocked"
+  },
+  "uploadSanitized": {
+    "title": "Uploaded successfully"
+  },
+  "uploadScanning": {
+    "title": "Scanning file...",
+    "secondaryCta": "Cancel"
+  },
+  "uploadScanSuccess": {
+    "title": "File scanned successfully",
+    "description": "Scan completed - file will be uploaded"
+  },
+  "uploadSuccess": {
+    "title": "Uploaded successfully"
+  },
+  "downloadWarn": {
+    "title": "Sensitive Data Found",
+    "primaryCta": "Submit and Download",
+    "secondaryCta": "Cancel Download",
+    "promptText": "Provide a reason for downloading the file"
+  },
+  "uploadWarn": {
+    "title": "Sensitive Data Found",
+    "primaryCta": "Submit and Upload",
+    "secondaryCta": "Cancel Upload",
+    "promptText": "Provide a reason for uploading the file"
+  },
+  "pamAutofill": {
+    "title": "Sign in",
+    "description": "Choose an account to sign-in",
+    "secondaryCta": "Close"
+  },
+  "pamAutofillSuggestions": {
+    "errorTitle": "Oops. Looks like something went wrong. ",
+    "errorDescription": "Please refresh the page and try again. If the issue persists, please contact your IT team."
+  },
+  "downloadUploadBlockMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "Sensitive data was found.$t(alerts:common.messages.companyBlockProtectionDisclaimer)",
+      "fileSizeExceededDownload": "In order to protect our company, downloading large files isn't allowed.\n",
+      "fileSizeExceededUpload": "In order to protect our company, uploading large files isn't allowed.\n",
+      "blockedSite": "This site was identified as dangerous and was blocked according to company policy.",
+      "unsupportedLocalUpload": "According to the company policy, you can upload files only via secure storage"
+    },
+    "scanResult": {
+      "blackListed": "This file is blacklisted",
+      "threat": "This file was found to be malicious and was removed."
+    },
+    "unscannable": {
+      "fileTooLarge": "This file is too large to be scanned",
+      "disconnected": "The file couldn't be scanned due to network issues",
+      "failedToConnect": "The scanner is not reachable",
+      "unsupportedFormat": "This file type is not supported",
+      "sanitizationFailed": "This file couldn't be sanitized",
+      "encryptedFile": "This file is encrypted",
+      "archiveTooDeep": "This compress file contains too many files",
+      "archiveContentTooLarge": "The content of this compressed file is too large",
+      "archiveItemCountTooLarge": "This compressed file contains too many files",
+      "unexpectedError": "An error occurred during the scanning process",
+      "noAvailableQuota": "No available quota in the configured scanning service"
+    },
+    "cancel": {
+      "wrongPasswordAttemptExceededDownload": "Download cancelled due to too many wrong password attempts",
+      "wrongPasswordAttemptExceededUpload": "Upload cancelled due to too many wrong password attempts"
+    }
+  },
+  "downloadWarnMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "This file contains sensitive data.\nTo protect our company, we recommend that you do not download this file."
+    }
+  },
+  "uploadWarnMessages": {
+    "fileVerdict": {
+      "dlpVerdict": "This file contains sensitive data.\nTo protect our company, we recommend that you do not upload this file."
+    }
+  },
+  "bypassRequests": {
+    "screenshotProtectionBypass": {
+      "title": "Bypass and allow screen capture",
+      "description": "Screen capture will be enabled for this browsing session with extended monitoring.\nBe cautious with the content shared.",
+      "primaryCta": "Submit and Allow",
+      "secondaryCta": "Cancel Bypass",
+      "promptText": "Provide a reason for allowing screen capture",
+      "reasons": ["Session with IT", "No sensitive data to share"]
+    }
+  },
+  "generalBlockMessages": {
+    "mimeMatch": "‘{{mimeType}}‘ file mime type is not allowed.$t(alerts:common.messages.companyBlockProtectionDisclaimer)",
+    "extensionMatch": "‘{{fileType}}‘ files aren't allowed.$t(alerts:common.messages.companyBlockProtectionDisclaimer)"
+  },
+  "featureAnnouncement": {
+    "tryItNow": "Try it now",
+    "new": "NEW",
+    "accessUsingShortcutOrFromTopBarInstructions": "Access {{feature}} with <3>{{keyboardShortcut}}</3><br />or from the <5></5> Icon at the top bar.",
+    "clipboardManagerCopy": {
+      "featureName": "Island Clipboard",
+      "title": "Copying just got a whole lot better",
+      "content": "Island Clipboard keeps your copy history just a click away. You can quickly search and paste your data as you need it."
+    },
+    "clipboardManagerSmartClipsInsertion": {
+      "featureName": "Island Clipboard",
+      "title": "You have just received a productivity boost!",
+      "content": "Your organization automatically inserted data you need into your clipboard history. It is ready for you to use in Island Clipboard."
+    },
+    "snippingTool": {
+      "featureName": "Island Capture",
+      "title": "Don’t stop capturing!",
+      "content": "Island Capture is now available for you. Using Island Capture, you can capture, crop, and use your content anywhere on the web.\nIt’s ready to use and it is just a click away."
+    }
+  }
+}

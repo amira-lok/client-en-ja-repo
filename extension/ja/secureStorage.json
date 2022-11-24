@@ -1,0 +1,165 @@
+{
+  "common": {
+    "rootFolderName": "全ファイル"
+  },
+  "header": {
+    "title": "Secure Storage"
+  },
+  "fileBrowser": {
+    "title": "ファイルマネージャー"
+  },
+  "filePicker": {
+    "primaryCta": "アップロード",
+    "secondaryCta": "キャンセル"
+  },
+  "sourcePicker": {
+    "title": "ファイルアップロード",
+    "subtitle": "ファイルアップロード先の選択：",
+    "secondaryCta": "キャンセル",
+    "secureStorageSource": {
+      "title": "Secure Storage",
+      "description": "secured storageに保存されているファイルのアップロード"
+    },
+    "localSource": {
+      "title": "あなたの端末",
+      "description": "端末のローカルに保存されているファイルのアップロード"
+    }
+  },
+  "fileProgress": {
+    "title": "ファイルアップロードの準備中",
+    "ready": "準備",
+    "completed": "完了",
+    "preparingFile_one": "ファイルの準備中…",
+    "preparingFile_other": "{{count}}の{{filesInProgress}}ファイルの準備中…"
+  },
+  "columns": {
+    "name": {
+      "header": "名前"
+    },
+    "url": {
+      "header": "オリジナルURL"
+    },
+    "dateSaved": {
+      "header": "保存日"
+    },
+    "lastModified": {
+      "header": "最終更新日"
+    },
+    "expiryDate": {
+      "header": "有効期限"
+    },
+    "size": {
+      "header": "サイズ"
+    }
+  },
+  "contextMenu": {
+    "preview": {
+      "title": "プレビュー"
+    }
+  },
+  "errorModal": {
+    "primaryCta": "OK",
+    "folderNotFound": {
+      "title": "エラー",
+      "content": "フォルダが見つかりませんでした。"
+    },
+    "openFileFailure": {
+      "title": "申し訳ありませんが、ファイルを開くことができませんでした",
+      "content": "ファイル{{fileName}}はサポートされていないため、開くことができませんでした。"
+    }
+  },
+  "fileManager": {
+    "NewFolder": "新しいフォルダ",
+    "Upload": "アップロード",
+    "Delete": "削除",
+    "Rename": "名前の変更",
+    "Download": "ダウンロード",
+    "Cut": "切り取り",
+    "Copy": "コピー",
+    "Paste": "貼り付け",
+    "SortBy": "並び替え",
+    "Refresh": "更新",
+    "Item-Selection": "選択項目",
+    "Items-Selection": "選択項目",
+    "View": "ビュー",
+    "Details": "詳細",
+    "SelectAll": "すべて選択",
+    "Open": "開く",
+    "Tooltip-NewFolder": "新しいフォルダ",
+    "Tooltip-Upload": "アップロード",
+    "Tooltip-Delete": "削除",
+    "Tooltip-Rename": "名前の変更",
+    "Tooltip-Download": "ダウンロード",
+    "Tooltip-Cut": "切り取り",
+    "Tooltip-Copy": "コピー",
+    "Tooltip-Paste": "貼り付け",
+    "Tooltip-SortBy": "並び替え",
+    "Tooltip-Refresh": "更新",
+    "Tooltip-Selection": "選択のクリア",
+    "Tooltip-View": "ビュー",
+    "Tooltip-Details": "詳細",
+    "Tooltip-SelectAll": "すべて選択",
+    "Name": "名前",
+    "Size": "サイズ",
+    "DateModified": "変更",
+    "DateCreated": "作成日",
+    "Path": "パス",
+    "Modified": "変更",
+    "Created": "作成",
+    "Location": "場所",
+    "Type": "種類",
+    "Permission": "許可",
+    "Ascending": "昇順",
+    "Descending": "降順",
+    "None": "なし",
+    "View-LargeIcons": "大アイコン",
+    "View-Details": "詳細",
+    "Search": "検索",
+    "Button-Ok": "OK",
+    "Button-Cancel": "キャンセル",
+    "Button-Yes": "はい",
+    "Button-No": "いいえ",
+    "Button-Create": "作成",
+    "Button-Save": "保存",
+    "Header-NewFolder": "フォルダ",
+    "Content-NewFolder": "フォルダ名を入力する",
+    "Header-Rename": "名前の変更",
+    "Content-Rename": "新しい名前の入力",
+    "Header-Rename-Confirmation": "名前の変更確認",
+    "Content-Rename-Confirmation": "ファイルの拡張子を変更すると、ファイルが使えなくなる可能性があります。本当に変更しますか。",
+    "Header-Delete": "ファイルを削除する",
+    "Content-Delete": "本当にこのファイルを削除しますか。",
+    "Header-Folder-Delete": "フォルダを削除する",
+    "Content-Folder-Delete": "本当にこのフォルダを削除しますか。",
+    "Header-Multiple-Delete": "複数のアイテムを削除する",
+    "Content-Multiple-Delete": "本当に{0}を削除しますか。",
+    "Header-Duplicate": "ファイル\/フォルダが存在",
+    "Content-Duplicate": "{0}は既に存在しています。名前を変更して貼り付けますか。",
+    "Header-Upload": "ファイルをアップロード",
+    "Error": "エラー",
+    "Validation-Empty": "ファイル名またはフォルダ名を空にすることはできません。",
+    "Validation-Invalid": "ファイルまたはフォルダ名{0}には無効な文字が含まれています。別の名前を使用してください。有効なファイルまたはフォルダ名は、ドットまたはスペースで終わることはできず、次の文字を含むことはできません：\\\/:*?\"<>|",
+    "Validation-NewFolder-Exists": "{0}という名前のファイルまたはフォルダは既に存在します。",
+    "Validation-Rename-Exists": "名前を {0} から {1} に変更できません：宛先に既に存在します。",
+    "Folder-Empty": "フォルダは空です",
+    "File-Upload": "アップロードするファイルをドラッグしてください",
+    "Search-Empty": "見つかりませんでした",
+    "Search-Key": "異なるキーワードで試してください",
+    "Filter-Empty": "見つかりませんでした",
+    "Filter-Key": "異なるフィルタで試してください",
+    "Sub-Folder-Error": "宛先フォルダは元フォルダの子フォルダです。",
+    "Same-Folder-Error": "宛先フォルダは元フォルダと同じです。",
+    "Access-Denied": "アクセスが拒否されました",
+    "Access-Details": "このフォルダにアクセスする権限がありません。",
+    "Header-Retry": "ファイルはすでに存在します",
+    "Content-Retry": "すでに同一のファイル名が存在します。どういたしますか。",
+    "Button-Keep-Both": "両方を保持",
+    "Button-Replace": "置換",
+    "Button-Skip": "スキップ",
+    "ApplyAll-Label": "すべて適応",
+    "KB": "KB",
+    "Access-Message": "{0}にアクセスできません。{1}アクションを実行するには権限が必要です。",
+    "Network-Error": "ネットワークエラー：XMLHTTPRequestの送信に失敗：読み込み失敗",
+    "Server-Error": "サーバエラー：からの無効な応答"
+  }
+}

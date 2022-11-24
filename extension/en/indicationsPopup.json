@@ -1,0 +1,22 @@
+{
+  "privacy": {
+    "private": {
+      "toolbarIconTooltip": "Activity on this page is private",
+      "title": "Activity on this page is <2>private</2>",
+      "description": "No activity on this page is being reported.<br/>What you do is your business.",
+      "tooltip": "<strong>Private browsing</strong> means no activity on this page is being logged or monitored."
+    },
+    "anonymous": {
+      "toolbarIconTooltip": "Activity on this page is logged anonymously",
+      "title": "Activity on this page is logged <2>anonymously</2>",
+      "description": "{{tenant}} is logging the activity on this page, but none of it is linked to you.",
+      "tooltip": "<strong>Anonymous browsing</strong> means activity on this page is logged but won’t be linked to you."
+    },
+    "monitored": {
+      "toolbarIconTooltip": "Activity on this page is monitored",
+      "title": "Activity on this page is <2>monitored</2>",
+      "description": "Just an FYI - {{tenant}} is monitoring the activity on this page.",
+      "tooltip": "<strong>Monitored browsing</strong> means your activity on this page is being monitored."
+    }
+  }
+}

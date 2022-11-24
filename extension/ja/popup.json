@@ -1,0 +1,57 @@
+{
+  "protectedBrowsing": {
+    "title": "保護されたブラウジング",
+    "description": "会社のデータを紛失や盗難から守るために、いくつかの行動を制限しています。",
+    "descriptionWithNoFeaturePolicies": "会社のデータを安全に管理するために、閲覧の制限を設けることがあります。\n\nそのような場合は、ここに表示されます。",
+    "policyFeatures": {
+      "downloadFiles": "ファイルのダウンロード",
+      "savePage": "ページの保存",
+      "uploadFiles": "ファイルのアップロード",
+      "takeScreenshots": "スクリーンショットの撮影",
+      "copy\/CutContent": "コンテンツのコピー\/切り取り",
+      "pasteContent": "コンテンツの貼り付け",
+      "printPage": "ページの印刷"
+    },
+    "policyStatuses": {
+      "disabled": "使用不可",
+      "limited": "制限",
+      "allowed": "許可"
+    },
+    "screenshotProtectionBypass": {
+      "disabled": "",
+      "enabled": "",
+      "enabledTip": ""
+    }
+  },
+  "expandableSecureStorageSection": {
+    "title": "Secure storage",
+    "description": "安全なファイルマネージャーにファイルを保存します。会社のブラウザで閲覧、編集、アクションが可能です",
+    "primaryCta": "Secure storageを開きます"
+  },
+  "expandablePolicyControlSection": {
+    "title": "ポリシーの管理",
+    "description": "ブラウザを最新の組織ポリシーに更新します",
+    "primaryCta": "ポリシーの更新",
+    "policyDateLabel": "ポリシー作成日",
+    "browserPolicyDateLabel": "ブラウザポリシー作成日",
+    "pamPolicyDateLabel": "PAMポリシー作成日",
+    "noPolicy": "ポリシーなし"
+  },
+  "expandablePolicyInfoSection": {
+    "title": "ポリシー情報",
+    "description": "次のセクションは管理者のみ閲覧可能です",
+    "primaryCta": "トラブルシューティングを開きます",
+    "appliedRuleLabel": "適用ルール",
+    "reportingRulesLabel": "報告ルール",
+    "userInfoLabel": "ユーザ情報",
+    "ruleMatchingTreeLabel": "ルールマッチングツリー",
+    "usernamePrefix": "ユーザ名",
+    "tenantPrefix": "テナント"
+  },
+  "SecurityTipsSection": {
+    "title": "制限を解除するためのセキュリティのヒント",
+    "officeNetworkTip": "セキュアオフィスネットワークへ接続します",
+    "companyDeviceTip": "会社所有のデバイスを使用します",
+    "antiMalwareTip": "お使いの端末でマルウェア対策ソフトを起動します"
+  }
+}
